@@ -1,11 +1,3 @@
-echo "# rockpaperscissors" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/qeaceq/rockpaperscissors.git
-git push -u origin main
-
 import random
 import tkinter
 from tkinter import simpledialog
